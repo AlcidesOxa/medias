@@ -3,7 +3,7 @@ library(plotly)
 library(dplyr)
 library(readxl)
 library(shinythemes)
-df = read_excel("Datos/satisfaccion_consumidor.xls")
+df = read_excel("satisfaccion_consumidor.xls")
 
 df$genero = factor(df$genero)
 df$tipocliente = factor(df$tipocliente)
